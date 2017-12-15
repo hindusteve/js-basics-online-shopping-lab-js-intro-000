@@ -39,13 +39,13 @@ console.log(cart_list)
 
 function total() {
   // write your code here
-  total = 0;
+  cart_total = 0;
 
   for (var i = 0; i < cart.length; i++) {
-    total = total + Object.values(cart[i])[0]
+    cart_total = cart_total + Object.values(cart[i])[0]
   }
 
-  return total
+  return cart_total
 }
 
 function removeFromCart(item) {
