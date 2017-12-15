@@ -39,7 +39,7 @@ console.log(cart_list)
 
 function total() {
   // write your code here
-  cart_total = 0;
+  var cart_total = 0;
 
   for (var i = 0; i < cart.length; i++) {
     cart_total = cart_total + Object.values(cart[i])[0]
